@@ -58,6 +58,7 @@ function App() {
         // DTO 필드에 맞춘 requestData를 JSON 문자열로 전송합니다.
         body: JSON.stringify(requestData), 
       });
+    
 
       const data = await response.json();
 
